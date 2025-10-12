@@ -1,0 +1,351 @@
+/* General Body */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    height: 60px;
+}
+
+header .logo img {
+    width: 60px;
+    height: 60px;
+}
+
+header .hospital-name p {
+    font-size: 20px;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Dashboard Layout */
+.dashboard-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 320px;
+    background-color: #004080;
+    color: white;
+    border-radius: 10px;
+    padding-top: 20px;
+    height: calc(100vh - 60px);
+    position: relative;
+}
+
+.sidebar-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.sidebar-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.sidebar-header h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu li {
+    margin-bottom: 25px;
+}
+
+.sidebar-menu li a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.sidebar-menu li a:hover {
+    background-color: #5989b8;
+    transform: scale(1.05);
+}
+
+.sidebar-menu li a.active {
+    background-color: #5989b8;
+    color:  white;
+}
+footer {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgb(17, 35, 61);
+  padding: 0;
+  font-size: 14px;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.contactInfo {
+  text-align: center;
+}
+
+.socialLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.socialLink img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s;
+}
+
+.socialLink img:hover {
+  transform: scale(1.2);
+}
+
+.addressInfo {
+  margin-top: 10px;
+}
+
+.copyRight {
+  text-align: center;
+  font-size: 13px;
+  padding: 8px 0;
+}
+
+.sidebar-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Main Content */
+.main-content {
+    flex-grow: 1;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.welcome-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #004080;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Profile Card */
+.profile-card {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.3s;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+/* Individual Info Items */
+.profile-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.profile-item.full-width {
+    grid-column: 1 / -1;
+}
+
+.profile-item h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    color: #004080;
+    font-weight: bold;
+}
+
+.profile-item p {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+}
+
+/* Profile Actions */
+.profile-actions {
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 2px solid #eee;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #004080;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.card-btn:hover {
+    background-color: #0066cc;
+    transform: translateY(-2px);
+}
+
+/* Grid Layout for Profile Items */
+@media (min-width: 768px) {
+    .profile-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    
+    .profile-item.full-width {
+        grid-column: 1 / -1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dashboard-wrapper {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .profile-card {
+        margin: 10px;
+        padding: 20px;
+        grid-template-columns: 1fr;
+    }
+    
+    .profile-item {
+        padding: 15px;
+    }
+    
+    .profile-item h3 {
+        font-size: 14px;
+    }
+    
+    .profile-item p {
+        font-size: 16px;
+    }
+    
+    .profile-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card-btn {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+/* Footer */
+footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .contact-info img {
+    width: 30px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+footer .contact-info img:hover {
+    transform: scale(1.2);
+}

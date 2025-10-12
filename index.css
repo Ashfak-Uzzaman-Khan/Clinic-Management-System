@@ -1,0 +1,303 @@
+
+
+
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f5f6fa;
+}
+
+/* Header */
+header {
+    background: #004080;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo img {
+    width: 70px;
+    height: 70px;
+   
+}
+ 
+
+header .hospital-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: left;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+nav ul li a.query {
+    background: #809d0a;
+    color: #004080;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: #fce804;
+}
+
+.slider {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* পুরো ছবি দেখাবে, কাটবে না */
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: slideShow 9s infinite; /* ৩ টা ছবি × (২ সেকেন্ড show + fade) */
+}
+
+
+.slides img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+
+.slides img:nth-child(2) {
+    animation-delay: 3s;
+}
+
+.slides img:nth-child(3) {
+    animation-delay: 6s;
+}
+
+@keyframes slideShow {
+    0% { opacity: 0; }
+    5% { opacity: 1; }   
+    30% { opacity: 1; }  
+    35% { opacity: 0; }  
+    100% { opacity: 0; }
+}
+
+
+
+
+
+/* Why Choose Us */
+.why-choose {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background: white;
+}
+.choose-img img {
+    max-width: 400px;
+    margin-right: 30px;
+}
+.choose-content h2 {
+    margin-bottom: 20px;
+    color: #004080;
+}
+
+
+.feature-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Black text */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.feature-box img {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* Ensure paragraph inside a stays black and normal */
+.feature-box p {
+    margin: 0;
+    color: #000;
+}
+
+
+/* Blog Section */
+.blog {
+    padding: 40px;
+    text-align: center;
+}
+.blog h2 {
+    margin-bottom: 20px;
+    color: #004080;
+}
+.blog-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.blog-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.blog-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.blog-card h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.blog-card a {
+    text-decoration: none;
+    color: #004080;
+}
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.contact-info img {
+    width: 30px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+.contact-info img:hover {
+    transform: scale(1.2);
+}
+footer {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgb(17, 35, 61);
+  padding: 0;
+  font-size: 14px;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.contactInfo {
+  text-align: center;
+}
+
+.socialLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.socialLink img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s;
+}
+
+.socialLink img:hover {
+  transform: scale(1.2);
+}
+
+.addressInfo {
+  margin-top: 10px;
+}
+
+.copyRight {
+  text-align: center;
+  font-size: 13px;
+  padding: 8px 0;
+}
+footer {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgb(17, 35, 61);
+  padding: 0;
+  font-size: 14px;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.contactInfo {
+  text-align: center;
+}
+
+.socialLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.socialLink img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s;
+}
+
+.socialLink img:hover {
+  transform: scale(1.2);
+}
+
+.addressInfo {
+  margin-top: 10px;
+}
+
+.copyRight {
+  text-align: center;
+  font-size: 13px;
+  padding: 8px 0;
+}
