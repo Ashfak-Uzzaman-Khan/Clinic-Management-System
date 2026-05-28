@@ -130,8 +130,7 @@ It provides a **secure, user-friendly, and organized platform** for effective co
 | Name                              | Email                                                             | Institution                                         |
 | --------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------- |
 | **Md. Ashfak Uzzaman Khan Limon** | [22-49976-3@student.aiub.edu](mailto:22-49976-3@student.aiub.edu) | American International University-Bangladesh (AIUB) |
-| **Anupom Bhowmik**                | [22-49522-3@student.aiub.edu](mailto:22-49522-3@student.aiub.edu) | American International University-Bangladesh (AIUB) |
-| **Mehedi Hasan**                  | [23-51151-1@student.aiub.edu](mailto:23-51151-1@student.aiub.edu) | American International University-Bangladesh (AIUB) |
+
 
 ---
 
