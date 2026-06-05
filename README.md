@@ -126,7 +126,6 @@ It provides a **secure, user-friendly, and organized platform** for effective co
 ---
 
 
-<img width="1918" height="1078" alt="Screenshot 2026-01-01 212430" src="https://github.com/user-attachments/assets/34def57e-d557-473e-b332-fa1f637eba84" />
 
 
 ## Developers
