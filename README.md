@@ -12,7 +12,7 @@ It provides a **secure, user-friendly, and organized platform** for effective co
 # Table of Contents
 
 1. [Features](#-features)
-2. [Type of Users](#-type-of-users)
+2. [Type of Users](#-type-of-users) 
 3. [Technologies Used](#-technologies-used)
 4. [How to Install and Run the Project](#-how-to-install-and-run-the-project)
 5. [How to Use the Project](#-how-to-use-the-project)
