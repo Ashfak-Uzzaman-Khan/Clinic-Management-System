@@ -10,7 +10,7 @@ It provides a **secure, user-friendly, and organized platform** for effective co
 
 
 # Table of Contents
-
+       
 1. [Features](#-features)
 2. [Type of Users](#-type-of-users) 
 3. [Technologies Used](#-technologies-used)
